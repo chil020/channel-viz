@@ -346,9 +346,9 @@
 						return false;
 					});
 
-					$('#feed-' + data.id + ' .duration-90').click(function() {
+					$('#feed-' + data.id + ' .duration-90S').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
-						updateFeeds(data.id, thisFeedDatastreams, '90days', 10800);
+						updateFeeds(data.id, thisFeedDatastreams, '90SECS', 90);
 						return false;
 					});
 
