@@ -324,7 +324,7 @@
 
 					$('#feed-' + data.id + ' .duration-6hrs').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
-						updateFeeds(data.id, thisFeedDatastreams, 'TEST', 0);
+						updateFeeds(data.id, thisFeedDatastreams, 'TEST', 1);
 						return false;
 					});
 
