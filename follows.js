@@ -336,7 +336,7 @@
 
 					$('#feed-' + data.id + ' .duration-week').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
-						updateFeeds(data.id, thisFeedDatastreams, '1week', 30);
+						updateFeeds(data.id, thisFeedDatastreams, '1week', 900);
 						return false;
 					});
 
